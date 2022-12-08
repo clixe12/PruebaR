@@ -24,10 +24,13 @@ function cargarModelos()
 	//let longitud=-3.616590107857667
 	for(let i =0;i>modelos.length;i++)
 	{
-	var modelo= document.createElement('a-box')
-	modelo.setAttribute('material','color:' + modelos[i].color)
-	modelo.setAttribute('scale',''0.2 0.2 0.2')
-	model.setAttribute('gps-entity-place', 'latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};');
+	var modelo= document.createElement('a-box');
+	modelo.setAttribute('material', 'color:' + modelos[i].color);
+	modelo.setAttribute('scale', '0.2 0.2 0.2');
+	model.setAttribute('gltf-model', './assets/magnemite/scene.gltf');
+	model.setAttribute('rotation', '0 180 0');
+	model.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};`);
+		
 	
 	let scene = document.querySelecto('a-scene');
 	scene.appendChild(modelo);
