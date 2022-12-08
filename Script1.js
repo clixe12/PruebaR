@@ -12,13 +12,13 @@ function cargarModelos()
 		longitud:-3.6166366592057346,
 		color:"blue",
 
-	}
+	},
 	{ //casa
 		latitud:36.99205134776458,
 		longitud:-3.568055075527317,
 		color:"yellow",
 
-	}
+	},
 
 	];
 	//let latitud=37.19222616773243
