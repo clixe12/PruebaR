@@ -30,7 +30,7 @@ function cargarModelos()
 	var modelo= document.createElement('a-box')
 	modelo.setAttribute('material','color:' + modelos[i].color)
 	modelo.setAttribute('scale',""+modelos[i].escala" "+modelos[i].escala" "+modelos[i].escala)
-	model.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};`);
+	model.setAttribute('gps-entity-place', 'latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};');
 	
 	let scene = document.querySelecto('a-scene');
 	scene.appendChild(modelo);
