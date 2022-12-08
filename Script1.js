@@ -7,6 +7,7 @@ function cargarModelos()
 {
 	let modelos=[
 	{ //Tuto
+		
 		latitud:37.19226594089006
 		longitud:-3.6166366592057346
 		color:"blue"
@@ -27,7 +28,6 @@ function cargarModelos()
 	var modelo= document.createElement('a-box');
 	modelo.setAttribute('material', 'color:' + modelos[i].color);
 	modelo.setAttribute('scale', '0.2 0.2 0.2');
-	model.setAttribute('gltf-model', './assets/magnemite/scene.gltf');
 	model.setAttribute('rotation', '0 180 0');
 	model.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};`);
 		
