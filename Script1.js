@@ -2,7 +2,10 @@
 window.onload = ()=>
 {
 	let camera = document.querySelector('a-camera');
-	camara.addEventListener("gps-camera-update-position",()=>)
+	camara.addEventListener("gps-camera-update-position",()=>{
+		let cdiv = document.getElementByid('mensajes');
+		div.innerHTML = "prueba";
+		});
 	cargarModelos()
 }
 function cargarModelos()
