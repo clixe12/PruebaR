@@ -1,6 +1,8 @@
 // JavaScript source code
 window.onload = ()=>
 {
+	let camera = document.querySelector('a-camera');
+	camara.addEventListener("gps-camera-update-position",()=>)
 	cargarModelos()
 }
 function cargarModelos()
