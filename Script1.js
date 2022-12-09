@@ -1,7 +1,7 @@
 // JavaScript source code
 window.onload = ()=>
 {
-	let camera = document.querySelector('a-camera');
+	let camara = document.querySelector('a-camara');
 	camara.addEventListener("gps-camera-update-position",()=>{
 		let div = document.getElementByid('Mensaje');
 		div.innerHTML = "prueba";
