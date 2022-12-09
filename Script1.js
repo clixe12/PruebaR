@@ -7,7 +7,7 @@ function cargarModelos()
 {
 	let modelos=[
 	{ //Tuto
-		37.19224678549024, -3.6166000151576796
+
 		latitud:37.19224678549024,
 		longitud:-3.6166000151576796,
 		color:"blue",
@@ -21,8 +21,7 @@ function cargarModelos()
 	},
 
 	];
-	//let latitud=37.19222616773243
-	//let longitud=-3.616590107857667
+
 	for(let i =0;i<modelos.length;i++)
 	{
 	var modelo= document.createElement('a-box');
