@@ -15,9 +15,15 @@ function cargarModelos()
 
                 latitud: 37.192249,
                 longitud: -3.616615,
-		color:"blue",
+                color: "yellow",
+            },
+            {
+                latitud: 37.192246, 
+                longitud: -3.616596,
+                color: "red",
+            },
 
-	},
+	
 	{ //casa
 		latitud:36.99205134776458,
 		longitud:-3.568055075527317,
