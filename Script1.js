@@ -53,3 +53,4 @@ function cargarModelos()
             var scene = document.querySelector('a-scene');
             scene.appendChild(modelo);
         }
+	}
