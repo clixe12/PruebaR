@@ -24,7 +24,7 @@ function cargarModelos()
 
 	for(let i =0;i<modelos.length;i++)
 	{
-	var modelo= document.createElement('a-box');
+	var model= document.createElement('a-box');
 	model.setAttribute('material', 'color:' + modelos[i].color);
 	model.setAttribute('scale', '0.2 0.2 0.2');
 	model.setAttribute('rotation', '0 180 0');
@@ -32,7 +32,7 @@ function cargarModelos()
 		
 	
 	let scene = document.querySelecto('a-scene');
-	scene.appendChild(modelo);
+	scene.appendChild(model);
 	}
 
 }
