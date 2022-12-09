@@ -7,9 +7,9 @@ function cargarModelos()
 {
 	let modelos=[
 	{ //Tuto
-		
-		latitud:37.19226594089006,
-		longitud:-3.6166366592057346,
+		37.19224678549024, -3.6166000151576796
+		latitud:37.19224678549024,
+		longitud:-3.6166000151576796,
 		color:"blue",
 
 	},
