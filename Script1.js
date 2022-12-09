@@ -10,40 +10,46 @@ window.onload = ()=>
 }
 function cargarModelos()
 {
-	let modelos=[
-	{ //Tuto
-
+        var modelos = [
+            {
                 latitud: 37.192249,
                 longitud: -3.616615,
                 color: "yellow",
+                coso: "a-box"
             },
             {
                 latitud: 37.192246, 
                 longitud: -3.616596,
                 color: "red",
+                coso: "a-cylinder"
             },
+            {
+                latitud: 37.192262,
+                longitud: -3.616535,
+                color: "blue",
+                coso: "a-octahedron"
+            },
+            {
+                latitud: 37.192196, 
+                longitud: -3.616572,
+                color: "pink",
+                coso: "a-triangle"
+            },
+            {
+                latitud: 37.192235, 
+                longitud: -3.616582,
+                color: "white",
+                coso: "a-sphere"
+            }
+        ];
 
-	
-	{ //casa
-		latitud:36.99205134776458,
-		longitud:-3.568055075527317,
-		color:"red",
+        
+        for (var i = 0; i < modelos.length; i++){
+            var modelo = document.createElement(modelos[i].coso);
+            modelo.setAttribute('material', 'color:' + modelos[i].color);
+            modelo.setAttribute('scale', '0.5 0.5 0.5');
+            modelo.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].longitud};`);
 
-	},
-
-	];
-
-	for(let i =0;i<modelos.length;i++)
-	{
-	var model= document.createElement('a-box');
-	model.setAttribute('material', 'color:' + modelos[i].color);
-	model.setAttribute('scale', '0.2 0.2 0.2');
-	model.setAttribute('rotation', '0 180 0');
-	model.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].latitud};`);
-		
-	
-	let scene = document.querySelector('a-scene');
-	scene.appendChild(model);
-	}
-
-}
+            var scene = document.querySelector('a-scene');
+            scene.appendChild(modelo);
+        }
