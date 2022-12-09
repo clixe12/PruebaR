@@ -8,8 +8,8 @@ function cargarModelos()
 	let modelos=[
 	{ //Tuto
 
-		latitud:37.19224678549024,
-		longitud:-3.6166000151576796,
+                latitud: 37.192249,
+                longitud: -3.616615,
 		color:"blue",
 
 	},
