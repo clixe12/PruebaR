@@ -21,7 +21,7 @@ function cargarModelos()
 	{ //casa
 		latitud:36.99205134776458,
 		longitud:-3.568055075527317,
-		color:"yellow",
+		color:"red",
 
 	},
 
