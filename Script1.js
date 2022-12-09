@@ -23,7 +23,7 @@ function cargarModelos()
 	];
 	//let latitud=37.19222616773243
 	//let longitud=-3.616590107857667
-	for(let i =0;i>modelos.length;i++)
+	for(let i =0;i<modelos.length;i++)
 	{
 	var modelo= document.createElement('a-box');
 	modelo.setAttribute('material', 'color:' + modelos[i].color);
