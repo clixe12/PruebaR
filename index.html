@@ -82,8 +82,9 @@
             
             var texto = document.createElement("a-text");
             texto.setAttribute('value', 'Trabajo de Elías');
-            texto.setAttribute('scale', '0.5 0.5 0.5');
+            texto.setAttribute('color', 'red');
             texto.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].longitud};`);
+            texto.setAttribute('scale', '0.5 0.5 0.5');
             scene.appendChild(texto);
           
             var imagen = document.createElement("a-imagen");
