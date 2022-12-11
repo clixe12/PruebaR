@@ -85,13 +85,13 @@
             var imagen = document.createElement("a-imagen");
             texto.setAttribute('src', 'https://i.pinimg.com/originals/2c/46/e1/2c46e1e21b76ea347bba76e650b98d90.jpg');
             texto.setAttribute('scale', '0.5 0.5 0.5');
-            video.setAttribute('position', '90 0 0');
+            video.setAttribute('position=', '0 0 0');
             texto.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].longitud};`);
 
             var video = document.createElement("a-video");
             video.setAttribute('src', 'https://www.youtube.com/watch?v=ELp3FSsmkGQ');
             video.setAttribute('scale', '0.5 0.5 0.5');
-            video.setAttribute('position', '90 0 0');
+            video.setAttribute('position=', '90 0 0');
             video.setAttribute('gps-entity-place', `latitude: ${modelos[i].latitud}; longitude: ${modelos[i].longitud};`);
 
             var scene = document.querySelector('a-scene');
